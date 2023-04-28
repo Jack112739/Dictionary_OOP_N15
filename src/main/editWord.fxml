@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="512.0" prefWidth="826.0" style="-fx-background-color: #dde62a;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.EditWord">
+   <children>
+      <TextField fx:id="OldWord" layoutX="306.0" layoutY="111.0" prefHeight="55.0" prefWidth="206.0" promptText="old word" style="-fx-background-color: #fdf5e6;" />
+      <TextField fx:id="NewWord" layoutX="306.0" layoutY="189.0" prefHeight="55.0" prefWidth="206.0" promptText="new word" style="-fx-background-color: #fdf5e6;" />
+      <TextArea fx:id="textArea" layoutX="306.0" layoutY="275.0" prefHeight="55.0" prefWidth="206.0" promptText="nghĩa mới" style="-fx-background-color: #f5fffa;" />
+      <Button layoutX="567.0" layoutY="278.0" mnemonicParsing="false" onAction="#edit" prefHeight="49.0" prefWidth="66.0" style=" -fx-background-color: #E6D72A" text="Edit" textFill="#2c78ae">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Label layoutX="219.0" layoutY="442.0" prefHeight="27.0" prefWidth="387.0" text="nếu muốn loại bỏ một từ chỉ cần nhập old word" textFill="#23803c">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

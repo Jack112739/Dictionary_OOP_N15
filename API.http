@@ -1,0 +1,4 @@
+GET https://api.mymemory.translated.net/get?q=hello!&langpair=en|vi
+Accept: application/json
+
+###

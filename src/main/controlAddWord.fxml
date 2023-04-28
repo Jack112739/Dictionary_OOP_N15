@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="572.0" prefWidth="826.0" style="-fx-background-color: #dde62a;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.controlAddWord">
+   <children>
+      <TextField fx:id="InputAddWordTarget" layoutX="284.0" layoutY="106.0" prefHeight="63.0" prefWidth="260.0" promptText="new word" style="-fx-background-color: #fdf5e6;" />
+      <TextArea fx:id="InputAddWordExplain" layoutX="284.0" layoutY="227.0" prefHeight="63.0" prefWidth="260.0" promptText="giải thích nghĩa" style="-fx-background-color: #fdf5e6;" />
+      <Button fx:id="button_add" layoutX="589.0" layoutY="233.0" mnemonicParsing="false" onAction="#saveWord" prefHeight="52.0" prefWidth="69.0" text="add" style=" -fx-background-color: #E6D72A" />
+   </children>
+</AnchorPane>

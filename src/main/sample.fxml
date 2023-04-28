@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.Tooltip.CSSBridge?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="607.0" prefWidth="826.0" style="-fx-background-color: #dde62a;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.ControllerSearch">
+  <children>
+    <TextArea fx:id="textArea" layoutX="381.0" layoutY="4.0" prefHeight="601.0" prefWidth="445.0" />
+    <AnchorPane layoutY="2.0" prefHeight="536.0" prefWidth="381.0" style="-fx-background-color: #dde62a;">
+      <children>
+        <TextField fx:id="Height" layoutX="29.0" layoutY="14.0" onKeyReleased="#inputText" prefHeight="68.0" prefWidth="332.0" promptText="word" styleClass="list-cell" stylesheets="@graphic.css" />
+        <ListView fx:id="listView" layoutX="7.0" layoutY="98.0" onMouseClicked="#HandleMouseListWord" prefHeight="438.0" prefWidth="355.0" />
+      </children></AnchorPane>
+    <Button layoutX="763.0" layoutY="14.0" mnemonicParsing="false" onAction="#HandleButtonSpeech" prefHeight="44.0" prefWidth="49.0" style="-fx-background-color:#E6D72A " stylesheets="@graphic.css">
+      <graphic>
+        <ImageView fitHeight="22.0" fitWidth="19.0" pickOnBounds="true" preserveRatio="true">
+          <image>
+            <Image url="@graphic/icons8_Speaker_48px.png" />
+          </image>
+        </ImageView>
+      </graphic>
+    </Button>
+      <Button layoutX="81.0" layoutY="549.0" mnemonicParsing="false" onAction="#updateCSDL" prefHeight="44.0" prefWidth="220.0" text="Update thư viện trên CSDL" />
+  </children>
+
+</AnchorPane>

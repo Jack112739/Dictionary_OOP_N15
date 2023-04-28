@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.PopupControl.CSSBridge?>
+
+<AnchorPane prefHeight="697.0" prefWidth="804.0" style="-fx-background-color: #dde62a;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.ControlMain">
+   <children>
+      <Accordion />
+      <AnchorPane fx:id="anchorPane" layoutY="119.0" prefHeight="578.0" prefWidth="840.0" />
+      <AnchorPane layoutX="-1.0" prefHeight="117.0" prefWidth="703.0" style="-fx-background-color: #86AC41;">
+         <children>
+            <Button fx:id="button_add" layoutY="6.0" mnemonicParsing="false" onAction="#buttonAddWord" prefHeight="108.0" prefWidth="200.0" text="THÊM VÀO TỪ ĐIỂN" textFill="#573cc3" />
+            <Button fx:id="button_edit" layoutX="196.0" layoutY="6.0" mnemonicParsing="false" onAction="#buttonEditWord" prefHeight="108.0" prefWidth="211.0" text="CHỈNH SỬA" textFill="#304cc9" />
+            <Button fx:id="button_translate" layoutX="405.0" layoutY="6.0" mnemonicParsing="false" onAction="#buttonSearchWord" prefHeight="108.0" prefWidth="211.0" text="TÌM TRÊN THƯ VIỆN CỦA BẠN" textFill="#3426b2">
+               <font>
+                  <Font size="12.0" />
+               </font></Button>
+            <Button fx:id="button_paragraph" layoutX="612.0" layoutY="6.0" mnemonicParsing="false" onAction="#buttonTranslateParagraph" prefHeight="108.0" prefWidth="226.0" text="DỊCH ĐOẠN VĂN" textFill="#333abc" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
